@@ -34,7 +34,6 @@ class Game
   end
 
   def turn
-
     counter = 0
     while @status == "on going" && counter < 9
       @current_player = @arr_player[counter % 2] # cheking who's player is it the turn and assigning that player to the current_player variable
@@ -99,5 +98,4 @@ class Game
       puts "It's a draw"
     end
   end
-
 end

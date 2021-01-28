@@ -1,9 +1,7 @@
 require_relative 'board_case'
 
 class Board
-
 	attr_accessor :arr_boardcase
-
 	def initialize
 		@case1 = BoardCase.new("A1",'.')
 		@case2 = BoardCase.new("A2",'.')
@@ -16,7 +14,6 @@ class Board
 		@case9 = BoardCase.new("C3",'.')
 		@arr_boardcase = [@case1,@case2,@case3,@case4,@case5,@case6,@case7,@case8,@case9]
 	end
-
 	def play_turn(board,current_player)
     game_on = true
     while game_on
@@ -146,6 +143,5 @@ class Board
 		if board.arr_boardcase[2].token == 'O' && board.arr_boardcase[4].token == 'O' && board.arr_boardcase[6].token == 'O'
 			return true
 		end
-
 	end
 end

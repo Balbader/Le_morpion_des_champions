@@ -7,5 +7,4 @@ class BoardCase
 		@token = token
 		@case_id = case_id
 	end
-
 end

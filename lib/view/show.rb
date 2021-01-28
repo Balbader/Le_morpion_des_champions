@@ -1,6 +1,5 @@
 class Show
   attr_accessor :board
-
   def show_board(board)
     puts " " * 4 + "1".green + " " * 3 + "2".green + " " * 3 + "3".green
     puts "-".green * 15
@@ -11,5 +10,4 @@ class Show
     puts "C | ".green + board.arr_boardcase[6].token.yellow + " | ".green + board.arr_boardcase[7].token.yellow + " | ".green + board.arr_boardcase[8].token.yellow + " |".green
     puts "-".green * 15
   end
-
 end

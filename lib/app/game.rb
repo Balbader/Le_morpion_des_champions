@@ -88,7 +88,6 @@ class Game
     end
     puts "You selected #{answer}... Well done..."
     puts "أنت مذهل جدا"
-    p @status
   end
 
   def game_end

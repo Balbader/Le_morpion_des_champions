@@ -30,3 +30,7 @@ Feel free to fork it, star it, break it, clone it... We hope you have fun doing 
 5. Have fun :)<br>
 
 We hope you enjoy ^^<br>
+
+6. Le mot de la direction<br>
+
+Ce fût compliqué mais on a réussi !<br>

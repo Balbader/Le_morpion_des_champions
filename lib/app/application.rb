@@ -3,7 +3,6 @@ require_relative 'game'
 class Application
   attr_accessor :player_1, :player_2, :game
 
-
   def initialize
     #initializing a new game
     @game = Game.new

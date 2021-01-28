@@ -1,5 +1,5 @@
 # Le_morpion_des_champions
-<h3><span style="color:blue">Project realized by @Montedeveloppino, @35Draken, @Balbader, </span></h3><br>
+<h3><span style="color:blue">Project realized by @Montedeveloppino, @35Draken, @Balbader, @bnthp16, @mcdpdlr, @LX-pro-dev, @Medelafani </span></h3><br>
 Tu vas utiliser tes compétences de POO pour faire un programme en POO : un morpion. Ça fait envoyer du paté !
 
 <h2>Project Overview</h2><br>

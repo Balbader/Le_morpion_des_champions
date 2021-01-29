@@ -84,7 +84,7 @@ class Game
       end
       puts "Wrong answer you moron... I said:"
       puts "Select: Y for Yes or N for No"
-      answer = get.chomp.upcase
+      answer = gets.chomp.upcase
     end
     puts "You selected #{answer}... Well done..."
     puts "أنت مذهل جدا"

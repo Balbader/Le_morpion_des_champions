@@ -53,7 +53,7 @@ class Board
               board.arr_boardcase[4].token  = current_player.player_token
               game_on = false
           else
-              puts "I'm looking for a job.. now way I'm sticking around. Meanwhile.. choose another one!"
+              puts "I'm looking for a job.. no way I'm sticking around. Meanwhile.. choose another one!"
           end
       when "B3"
           if board.arr_boardcase[5].token == '.'

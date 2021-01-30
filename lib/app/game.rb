@@ -10,12 +10,12 @@ class Game
     # creating 2 players,defining the status to 'on_going', define current_player
     @player_1 = Player.new
     @player_2 = Player.new
-    @arr_player = [@player_1,@player_2]
+    @arr_player = [@player_1, @player_2]
     @status = 'on going'
 
     # check token value
     if @player_1.player_token == @player_2.player_token
-      puts "I'm switnching your token as you both picked the same one... "
+      puts "I'm switching your token as you both picked the same one... "
       if @player_1.player_token == 'X'
         @player_2.player_token = 'O'
       elsif @player_1.player_token == 'O'
